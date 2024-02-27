@@ -28,9 +28,9 @@ function MidSection() {
             <div className="navButton1" onClick={()=>prev()}><Left/></div>
             <div className="backgroundText">Auto-generate conversion focussed content <br/> for ready-to-use marketing recipes with AI</div>
             <div className="buttonContainer">
-            <div className="button"><Svg1/>Explore</div>
-            <div className="button"><Svg2/>Personalize</div>
-            <div className="button"><Svg3/>Execute</div>
+            <div className="button" onClick={()=>setNumber(0)}><Svg1/>Explore</div>
+            <div className="button" onClick={()=>setNumber(1)}><Svg2/>Personalize</div>
+            <div className="button" onClick={()=>setNumber(2)}><Svg3/>Execute</div>
             </div>
             <div className="navButton2" onClick={()=>next()}><Right/></div>
         </div>
