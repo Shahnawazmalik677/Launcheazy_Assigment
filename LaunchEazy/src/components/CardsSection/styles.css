@@ -15,6 +15,7 @@ height: Hug (228px);
 gap: 24px;
 display: flex;
 flex-direction: column;
+margin-left: 100px;
 }
 .text1{
 font-family: Helvetica;
@@ -67,30 +68,12 @@ border-radius: 24px;
 }
 
 .cards{
-width: Fixed (1,200px);
-height: Hug (454px);
+width: 1200px;
+height: 454px;
 gap: 24px;
+background-image: url('/Users/shahnawaz/Desktop/Launcheazy_Assigment/LaunchEazy/src/assets/images/Frame 701.png');
+background-repeat: none;
+margin-top: 50px;
+margin-left: 100px;
 
 }
-.card1{
-width: Fill (384px);
-height: Fill (454px);
-border-radius: 16px;
-background: #FFFFFF;
-
-}
-
-.card2{
-    width: Fill (384px);
-    height: Fill (454px);
-    border-radius: 16px; 
-    background: #FFFFFF;
-   
-}
-.card3{
-    width: Fill (384px);
-    height: Fill (454px);
-    border-radius: 16px; 
-    background: #FFFFFF;
-   
-    }
