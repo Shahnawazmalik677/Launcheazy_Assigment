@@ -1,0 +1,96 @@
+.parentConatiner{
+margin-top: 100px;
+width: 1450px;
+height: Hug (898px);
+padding: 80px;
+border-radius: 24px;
+gap: 56px;
+background: #FFF1F1;
+margin-left: 60px;
+}
+
+.staticText{
+width: Hug (690px);
+height: Hug (228px);
+gap: 24px;
+display: flex;
+flex-direction: column;
+}
+.text1{
+font-family: Helvetica;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #6F6F6F;
+
+}
+.text2{
+font-family: Helvetica;
+font-size: 48px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #161616;
+
+}
+.text3{
+font-family: Helvetica Neue;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: -0.01em;
+text-align: left;
+color: #525252;
+
+}
+
+.libbutton{
+padding: 10px, 16px, 10px, 16px;
+border-radius: 24px;
+}
+.bt{
+    width:150px;
+    height:34px;
+    border-radius: 24px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: white;
+    padding: 10px, 16px, 10px, 16px;
+    border: 1px solid black;   
+}
+
+.cards{
+width: Fixed (1,200px);
+height: Hug (454px);
+gap: 24px;
+
+}
+.card1{
+width: Fill (384px);
+height: Fill (454px);
+border-radius: 16px;
+background: #FFFFFF;
+
+}
+
+.card2{
+    width: Fill (384px);
+    height: Fill (454px);
+    border-radius: 16px; 
+    background: #FFFFFF;
+   
+}
+.card3{
+    width: Fill (384px);
+    height: Fill (454px);
+    border-radius: 16px; 
+    background: #FFFFFF;
+   
+    }
