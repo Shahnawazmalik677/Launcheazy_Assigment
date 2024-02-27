@@ -1,0 +1,155 @@
+.heroTop{
+
+    margin-top: 80px;
+    margin-left:120px;
+
+}
+.herobottom{
+    margin-left:120px;
+    display: flex;
+    align-items: center;
+   
+}
+.betaMsg{
+display: flex;
+padding: 6px 12px;
+align-items: center;
+gap: 8px;
+border-radius: 40px;
+border: 1px solid var(--Blue-Blue-20, #D0E2FF);
+width: 365px;
+height: 36px;
+}
+.innerText{
+color: var(--Neutrals-Grey-90, #262626);
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+}
+.endText{
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.nav{
+    text-decoration: none;
+    color: var(--blue-blue-50-main, #4589FF);
+}
+.textChange{
+    position: relative;
+    overflow: hidden;
+    height: 92px;
+    padding-top: 5px;
+}
+
+.rollingText{
+position: absolute;
+animation: animateTextHomepage 4.3s linear infinite;
+transform: translateY(2%);
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+@keyframes animateTextHomepage {
+    0%{
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(-40%);
+    }
+    34% {
+        transform: translateY(-39%);
+    }
+    53% {
+        transform: translateY(-39%);
+    }
+    66% {
+        transform: translateY(-78%);
+    }
+    67% {
+        transform: translateY(-77%);
+    }
+    85% {
+        transform: translateY(-77%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+.blueText{
+    font-size: 80px;
+    letter-spacing: -1.6px;
+    line-height: 88px;
+    font-weight: 400px;
+    color: #4589ff;
+    box-sizing: border-box;
+    font:Helvetica;
+}
+.fixedText{
+color: var(--blue-blue-50-main,#060a10);
+font-family: Helvetica;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 88px; /* 110% */
+letter-spacing: -1.6px;
+}
+
+.infoText{
+    margin-top: 16px;
+    font-family: Helvetica;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -1%;
+    color:#525252;
+    ;
+}
+.searchBar{
+    width: 380px;
+    height: 26px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid rgb(160, 153, 153);
+    gap: 4px;
+    margin-top: 40px;
+    
+}
+
+.joinButton{
+width:169px;
+height:48px;
+padding: 12px, 16px, 12px, 16px;
+border-radius: 6px;
+background-color: #161616;
+color: white;
+margin-left: 20px;
+margin-top: 40px;
+
+}
+
+.searchBar:hover{
+    border-color: #060a10;
+}
+.bottomText{
+font-family: Helvetica Neue;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color:#A8A8A8;
+margin-left:120px;
+}
