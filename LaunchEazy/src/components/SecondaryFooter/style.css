@@ -1,0 +1,96 @@
+.parentSecondaryFooter{
+width: 1,360px;
+height:460px;
+padding: 80px;
+border-radius: 24px;
+gap: 56px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.contentContainer{
+width:690px;
+height:fit-content;
+gap: 40px;
+
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.boldText{
+width:690px;
+height:fit-content;
+font-family: Helvetica;
+font-size: 48px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: -0.02em;
+
+}
+
+.normalText{
+font-family: Helvetica Neue;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: -0.01em;
+color: #6F6F6F;
+
+}
+.searchAndButton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.bt{
+    text-align: center;
+    
+}
+.foot{
+    margin-left: 4px;
+}
+.footSec{
+    margin-top: 0px;
+}
+.bye{
+
+    animation: byebye 4s infinite;
+}
+ @keyframes byebye{
+    
+    0%{
+        transform: rotate(0);
+    }
+    10%{
+        transform: rotate(-40deg);
+    }
+    20%{
+        transform: rotate(-60deg);
+    }
+    30%{
+        transform: rotate(-40deg);
+    }
+    40%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(40deg);
+    }
+    60%{
+        transform: rotate(60deg);
+    }
+    70%{
+        transform: rotate(40deg);
+    }
+    90%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+ }

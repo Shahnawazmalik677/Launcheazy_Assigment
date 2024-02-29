@@ -20,17 +20,40 @@ function MidSection() {
       const prev=()=>{
         setNumber((number-1)%3);
   }
+  
+  const style={}
+
+    if (number==0){
+      style.button1={
+        background: "#4589FF",
+        color:"white"
+      }   
+    }
+    else if(number==1){
+      style.button2={
+        background: "#4589FF",
+        color:"white"
+      }
+    }
+    else {
+      style.button3={
+        background: "#4589FF",
+        color:"white"
+      }
+    }
+
+
 
   return (
     <>
     <div className="parentBox">
         <div className="background">
-            <div className="navButton1" onClick={()=>prev()}><Left/></div>
+            <div className="navButton1"  onClick={()=>prev()}><Left/></div>
             <div className="backgroundText">Auto-generate conversion focussed content <br/> for ready-to-use marketing recipes with AI</div>
             <div className="buttonContainer">
-            <div className="button" onClick={()=>setNumber(0)}><Svg1/>Explore</div>
-            <div className="button" onClick={()=>setNumber(1)}><Svg2/>Personalize</div>
-            <div className="button" onClick={()=>setNumber(2)}><Svg3/>Execute</div>
+            <div className="button" onClick={()=>setNumber(0)} style={style.button1}><Svg1/>Explore</div>
+            <div className="button" onClick={()=>setNumber(1)} style={style.button2}><Svg2/>Personalize</div>
+            <div className="button" onClick={()=>setNumber(2)} style={style.button3}><Svg3/>Execute</div>
             </div>
             <div className="navButton2" onClick={()=>next()}><Right/></div>
         </div>

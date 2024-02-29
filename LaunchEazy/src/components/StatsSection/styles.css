@@ -1,0 +1,56 @@
+.statsContainer{
+width: Fixed (1,200px);
+height: Hug (354px);
+padding: 80px, 0px, 80px, 0px;
+gap: 24px;
+margin-top: 100px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.text{
+font-family: Helvetica;
+font-size: 48px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #161616;
+}
+.statsCards{
+width: Fixed (690px);
+height: Hug (194px);
+gap: 24px;
+display: flex;
+}
+.stats{
+ width: Fill (214px);
+height: Hug (194px);
+padding: 24px;
+border-radius: 16px;
+border: 1px;
+gap: 16px;
+border: 1px solid #D0E2FF
+
+}
+.head{
+font-family: Helvetica Neue;
+font-size: 64px;
+font-weight: 200;
+line-height: 64px;
+letter-spacing: -0.03em;
+text-align: left;
+color: #393939;
+}
+.foot{
+font-family: Helvetica Neue;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color: #6F6F6F;
+
+
+}
