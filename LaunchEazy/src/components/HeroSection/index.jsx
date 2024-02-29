@@ -31,7 +31,7 @@ function HeroSection() {
        <div className="search">
         <input placeholder='Enter Your Work Email' className='searchBar'></input>
        </div>
-       <div className='button'>
+       <div className='herobutton'>
         <button className='joinButton'>Join the waitlist</button>
        </div>
         </div>
