@@ -18,9 +18,9 @@ function HeroSection() {
        </div>
        <div className="textChange">
        <div className="rollingText">
-        <div className="blueText">Generate Leads</div>
-        <div className="blueText">Convert Prospects</div>
-        <div className="blueText">Retain Customers</div>
+        <div className="blueText">Generate leads</div>
+        <div className="blueText">Convert prospects</div>
+        <div className="blueText">Retain customers</div>
        </div>
        </div>
        <div className="fixedText">in 3 clicks for your business</div>
