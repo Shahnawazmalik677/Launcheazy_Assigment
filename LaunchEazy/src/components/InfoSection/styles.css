@@ -1,5 +1,5 @@
 .InfoContainer{
-width: 1660px;
+width: 97vw;
 height: 740px;
 border-radius: 24px;
 background: #DEFBE6;
@@ -53,7 +53,7 @@ color: #6F6F6F;
      color: #525252;
 }
 .rightCards{
-width: 790px;
+width: 42vw;
 height: 700px;
 min-height: 0px;
 min-width: 0px;
@@ -73,7 +73,7 @@ color: white;
     cursor: pointer;
 }
 .card{
-width: 690px;
+width: 36vw;
 height:320px;
 padding: 24px;
 border-radius: 20px;

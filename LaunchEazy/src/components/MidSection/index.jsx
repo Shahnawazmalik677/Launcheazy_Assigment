@@ -14,11 +14,12 @@ function MidSection() {
     const [number,setNumber]=useState(0);
       
         const next=()=>{
-            setNumber((number+1)%3);
+            setNumber(Math.abs((number+1)%3));
       }
 
       const prev=()=>{
-        setNumber((number-1)%3);
+        if(number==0)setNumber(2);
+        else setNumber(Math.abs((number-1)%3));
   }
   
   const style={}

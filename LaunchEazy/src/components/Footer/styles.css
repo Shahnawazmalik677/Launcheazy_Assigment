@@ -1,5 +1,4 @@
 .Footer{
-width:1,440px;
 height:674px;
 background: #262626;
 display: flex;
@@ -8,13 +7,13 @@ justify-content: space-evenly;
 align-items: center;
 }
 .footerUp{
-    width:1200px;
+    width:65vw;
     height:160px;
     margin-top: 100px;
     
 }
 .footerDown{
-    width:1100px;
+    width:60vw;
     height:190px;
     padding: 40px;
     border-radius: 16px;
@@ -28,7 +27,6 @@ align-items: center;
 
 }
 .footerLinks{
- width:1,200px;
 height:160px;
 display: flex;
 justify-content:space-between;
@@ -45,7 +43,7 @@ justify-content:space-between;
     
 }
 .rightSection{
-    width: 588px;
+    width: 32vw;
     height:128px;
     gap: 24px;
     
@@ -107,14 +105,14 @@ color: #6F6F6F;
 }
 
 .leftFooterDown{
-width:552px;
+width:30vw;
 height:110px;
 gap: 8px;
 display: flex;
 flex-direction: column;
 }
 .rightFooterDown{
-width:446px;
+width:25vw;
 height:72px;
 gap: 8px;
 display: flex;
@@ -219,12 +217,12 @@ margin-top: 50px;
 gap: 8px;
 }
 .lineFooterr{
-    width: 1200px;
+    width: 65vw;
     border: 1px solid #393939;
     background-color:#393939 ;
 }
 .copywrite{
-    width:1200px;
+    width:65vw;
     height:124px;
     padding: 24px, 120px, 80px, 120px;
     margin-top: 50px;
