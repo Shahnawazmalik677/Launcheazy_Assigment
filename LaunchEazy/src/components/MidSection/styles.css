@@ -6,7 +6,7 @@ position:relative ;
 }
 .background{
 width: 100%;
-height: 790px;
+height: 80vh;
 background-image: url("/Users/shahnawaz/Desktop/Launcheazy_Assigment/LaunchEazy/src/assets/images/BG.png");
 background-repeat: no-repeat;
 background-size: 100%;
@@ -22,7 +22,7 @@ transform: scale(1);
     width:87vw;
     height: 82vh;
     position: relative;
-    margin-left: 120px;
+    margin-left: 6.5vw;
     border-radius: 16px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -37,7 +37,7 @@ transform: scale(1);
 
 .parentBox:hover .frontImage{
 border-radius: 16px;
-transform: scale(0.8) translateY(24%);
+transform: scale(0.8) translateY(22%);
 position: absolute;
 }
 .backgroundText{
@@ -47,7 +47,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0em;
 color: #FFFFFF;
-margin-left: 15vw;
+margin-left: 14vw;
 margin-top: 50px;
 text-align:start;
 white-space: nowrap;
@@ -64,15 +64,17 @@ display: flex;
 justify-content: space-evenly;
 align-items:center;
 width:7.813vw;
-height: 40px;
+height: 35px;
 border-radius: 40px;
 margin-top: 60px;
 margin-left: 7px;
 font-family: Helvetica Neue;
-font-size: 20px;
+font-size: 16px;
 font-weight: 500;
 line-height: 22px;
-padding: 5px 5px 5px 5px
+letter-spacing: 0em;
+text-align: left;
+
 }
 
 .navButton1{
@@ -83,7 +85,7 @@ width:2.5vw;
 border-radius: 50%;
 margin-top: 25%;
 position: absolute;
-margin-left: 160px;
+margin-left: 8.7vw;
 box-shadow: 0px 0px 24px 8px #1616161F;
 background: #FFFFFF66;
 
@@ -96,7 +98,7 @@ background: #FFFFFF66;
     border-radius: 50%;
     margin-top: 25%;
     position: absolute;
-    margin-left:89.5vw;
+    margin-left:88.6vw;
     box-shadow: 0px 0px 24px 8px #1616161F;
     background: #FFFFFF66;
 

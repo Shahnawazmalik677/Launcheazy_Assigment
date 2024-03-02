@@ -1,7 +1,7 @@
 .parentConatiner{
-margin-top: 70vh;
+margin-top: 72vh;
 width: 75.52vw;
-height: Hug (898px);
+height:80vh;
 padding: 80px;
 border-radius: 24px;
 gap: 56px;
@@ -66,10 +66,11 @@ color: #6F6F6F;
 }
 
 .cards{
-width: 62.5vw;
+width: 69vw;
 height: 454px;
 gap: 24px;
 background-image: url('/Users/shahnawaz/Desktop/Launcheazy_Assigment/LaunchEazy/src/assets/images/Frame 701.png');
+background-size: 100% 100%;
 background-repeat: none;
 margin-top: 50px;
 margin-left: 100px;
