@@ -1,11 +1,10 @@
 .heroTop{
-
     margin-top: 80px;
-    margin-left:160px;
+    margin-left:11vw;
 
 }
 .herobottom{
-    margin-left:160px;
+    margin-left:11vw;
     display: flex;
     align-items: center;
    
@@ -165,7 +164,7 @@ line-height: 22px;
 letter-spacing: 0px;
 text-align: left;
 color:#A8A8A8;
-margin-left:160px;
+margin-left:11vw;
 }
 
 .arrowIcon{

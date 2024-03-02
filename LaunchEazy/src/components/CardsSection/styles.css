@@ -1,12 +1,12 @@
 .parentConatiner{
-margin-top: 100px;
-width: 1450px;
+margin-top: 70vh;
+width: 75.52vw;
 height: Hug (898px);
 padding: 80px;
 border-radius: 24px;
 gap: 56px;
 background: #FFF1F1;
-margin-left: 60px;
+margin-left: 7.5vw;
 }
 
 .staticText{
@@ -66,7 +66,7 @@ color: #6F6F6F;
 }
 
 .cards{
-width: 1200px;
+width: 62.5vw;
 height: 454px;
 gap: 24px;
 background-image: url('/Users/shahnawaz/Desktop/Launcheazy_Assigment/LaunchEazy/src/assets/images/Frame 701.png');

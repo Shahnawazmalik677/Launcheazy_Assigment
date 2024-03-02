@@ -1,6 +1,5 @@
 import React, { useRef } from 'react'
 import "./styles.css"
-import Rocket from '../../assets/images/Rocket.svg?react'
 function InfoSection() {
   return (
     <>
