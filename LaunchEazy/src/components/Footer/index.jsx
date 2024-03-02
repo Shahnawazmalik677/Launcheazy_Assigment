@@ -59,7 +59,7 @@ function Footer() {
         </div>
        </div>
        <div className="lineConatiner">
-        <div className="line"></div>
+        <div className="lineFooter"></div>
        </div>
        <div className="copywrite">
         <div className="leftTextCopywrite">Copyright 2023 Launcheazy AI Private Limited. All rights reserved.</div>
