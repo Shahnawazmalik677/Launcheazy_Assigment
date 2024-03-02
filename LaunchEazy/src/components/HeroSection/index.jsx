@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import RedIcon from "../../assets/images/Live animation.svg?react"
 import "./styles.css"
 import RightIcon from "../../assets/images/Right icon.svg?react"
+import Cursor from "../../assets/images/cursor.svg?react"
 import { NavLink } from 'react-router-dom'
 
 function HeroSection() {
@@ -23,6 +24,7 @@ function HeroSection() {
        </div>
        </div>
        <div className="fixedText">in 3 clicks for your business</div>
+       <div className="arrowIcon"><Cursor/></div>
        <div className="infoText">Simplify your marketing efforts with AI. Use a collection of ready-made, successful marketing<br/>strategies that practically run themselves.</div>
        </div>
      

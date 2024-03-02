@@ -49,22 +49,19 @@ color: #6F6F6F;
     
 
 }
-
-.libbutton{
-padding: 10px, 16px, 10px, 16px;
-border-radius: 24px; 
-}
 .btCards{
-    width:150px;
+    padding: 10px, 16px, 10px, 16px;
+    border-radius: 24px; 
+    width:172px;
     background: #FFFFFF;
-    height:34px;
-    border-radius: 24px;
+    height:40px;
     font-family: Inter;
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 0em;  
     border: 1px solid black;
+    position: absolute;
  
 }
 
@@ -76,5 +73,12 @@ background-image: url('/Users/shahnawaz/Desktop/Launcheazy_Assigment/LaunchEazy/
 background-repeat: none;
 margin-top: 50px;
 margin-left: 100px;
+
+}
+.vector{
+   align-items: center;
+   position: relative;
+   margin-left: 140px;
+   margin-top: 13px;
 
 }

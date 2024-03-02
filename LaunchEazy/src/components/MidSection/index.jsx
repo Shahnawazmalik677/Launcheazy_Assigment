@@ -6,7 +6,7 @@ import Svg3 from "../../assets/images/Step 3.svg?react"
 import Left from "../../assets/images/Circle Button Left.svg?react"
 import Right from "../../assets/images/Circle Button Right.svg?react"
 import image1 from "../../assets/images/Home.png?react"
-import image2 from "../../assets/images/Personalize.jpg?react"
+import image2 from "../../assets/images/Personalize.png?react"
 import image3 from "../../assets/images/LastPage.png?react"
 
 function MidSection() {
