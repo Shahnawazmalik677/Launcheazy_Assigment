@@ -7,7 +7,7 @@ function InfoSection() {
     <div className="InfoContainer">
         <div className="leftInfoText">
             <div className="headText">Marketing Tools</div>
-            <div className="midBoldText">Skyrocket <Rocket/> your growth with advanced marketing tools</div>
+            <div className="midBoldText">Skyrocket <div className="rocket">🚀</div>your growth with advanced marketing tools</div>
             <div className="footText">A library of ready-to-use marketing campaigns, workflows and programs to accelerate your growth, maximize savings and reduce efforts.</div>
              <div className="Infobutton"><button className='bt'>Join the Waitlist</button></div>
         </div>
@@ -28,7 +28,7 @@ function InfoSection() {
             <div className="text1">Marketing Plan</div>
                 <div className="text2">Run your entire marketing on autopilot.</div>
             </div>
-            <div className="card" style={{background: "#E0E0E0"}}>
+            <div className="card lst" style={{background: "#E0E0E0"}}>
             <div className="text1">Unified Reporting</div>
                 <div className="text2">Track ROI on every dollar spend.</div>
             </div>
