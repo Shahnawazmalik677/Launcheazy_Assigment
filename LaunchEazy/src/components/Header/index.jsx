@@ -10,8 +10,10 @@ function Header() {
   return (
     <div>
        <div className="parent">
-        <div className="logo"><Logo/></div>
+        <div className="logo"><Logo/>
+        </div>
         <div className="buttons">
+        <div className="yellowFree">Free</div>
          <button className='btn'><NavLink className='navLink'>AI Tools</NavLink> <Icon/></button>
          <button className='btn'><NavLink className='navLink'>Product</NavLink> <Icon/></button>
          <button className='btn'><NavLink className='navLink'>Resources</NavLink> <Icon/></button>

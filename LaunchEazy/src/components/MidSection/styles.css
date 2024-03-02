@@ -6,14 +6,14 @@ position:relative ;
 }
 .background{
 width: 100%;
-height: 780px;
+height: 790px;
 box-shadow: 0px 0px 24px 8px #1616161F;
 background-image: url("/Users/shahnawaz/Desktop/Launcheazy_Assigment/LaunchEazy/src/assets/images/BG.png");
 background-repeat: no-repeat;
 background-size: 100%;
 position: absolute;
 margin-top: 90px;
-transition: all 1s  ease-in-out;
+transition: all 0.5s  ease-in-out;
 display: flex;
 transform: scale(1);
 
@@ -27,7 +27,7 @@ transform: scale(1);
     border-radius: 16px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    transition: all 1s  ease-in-out;
+    transition: all 0.5s  ease-in-out;
     transform: scale(1);    
 }
 .parentBox:hover .background{
@@ -38,7 +38,7 @@ transform: scale(1);
 
 .parentBox:hover .frontImage{
 border-radius: 16px;
-transform: scale(0.8) translateY(25%);
+transform: scale(0.8) translateY(24%);
 position: absolute;
 
 
