@@ -37,7 +37,7 @@ function HeroSection() {
         <button className='joinButton'>Join the waitlist</button>
        </div>
         </div>
-        <div className="bottomText">Get access to a comprehensive directory of <span style={{color:"#F18D13"}}>AI Tools</span> and <br/> <span style={{color:"#24A148"}}>ChatGPT Prompts</span> to elevate your business.</div>
+        <div className="bottomText">Get access to a comprehensive directory of <span style={{color:"#F18D13"}}>AI Tools</span> and <span style={{color:"#24A148"}}>ChatGPT Prompts</span> to elevate your business.</div>
 
     </>
   )

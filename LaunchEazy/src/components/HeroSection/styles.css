@@ -16,21 +16,21 @@ align-items: center;
 gap: 8px;
 border-radius: 40px;
 border: 1px solid var(--Blue-Blue-20, #D0E2FF);
-width: 365px;
-height: 30px;
+width: 22vw;
+height: 3.5vh;
 margin-bottom: 15px;
 }
 .innerText{
 color: var(--Neutrals-Grey-90, #262626);
 font-family: Helvetica;
-font-size: 16px;
+font-size: 0.9vw;
 font-style: normal;
 font-weight: 700;
 line-height: 24px; 
 }
 .endText{
 font-family: Helvetica;
-font-size: 16px;
+font-size: 0.9vw;
 font-style: normal;
 font-weight: 700;
 line-height: 24px; 
@@ -102,7 +102,7 @@ gap: 30px;
     
 }
 .blueText{
-    font-size: 78px;
+    font-size: 4.5vw;
     letter-spacing: -1.6px;
     line-height: 88px;
     font-weight: 400px;
@@ -113,7 +113,7 @@ gap: 30px;
 .fixedText{
 color: var(--blue-blue-50-main,#060a10);
 font-family: Helvetica;
-font-size: 80px;
+font-size: 4.6vw;
 font-style: normal;
 font-weight: 400;
 line-height: 88px;
@@ -125,7 +125,7 @@ position: absolute;
     margin-top: 50px;
     font-family: Helvetica;
     font-weight: 400px;
-    font-size: 24px;
+    font-size: 1.4vw;
     line-height: 36px;
     letter-spacing: -1%;
     color:#525252;
@@ -157,6 +157,7 @@ margin-top: 40px;
     border-color: #060a10;
 }
 .bottomText{
+width: 24vw;
 font-family: Helvetica Neue;
 font-size: 16px;
 font-weight: 400;
@@ -165,6 +166,7 @@ letter-spacing: 0px;
 text-align: left;
 color:#A8A8A8;
 margin-left:11vw;
+margin-top: 2vh;
 }
 
 .arrowIcon{
@@ -202,4 +204,134 @@ animation: updown 1.4s linear infinite;
 }
 .endText:active .nav{
     color:black;
+}
+
+
+@media (max-width:993px) {
+
+.betaMsg{
+width:343px;
+height:18px;
+margin-top:30px;
+left: 20px;
+padding: 6px, 10px, 6px, 10px;
+border-radius: 40px;
+border: 1px;
+gap: 8px;
+border: 1px solid #D0E2FF
+
+}
+.innerText{
+width: 170px;
+height: 20px;
+font-family: Helvetica Neue;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #262626;
+
+}
+.endText{
+width:125px;
+height:20px;
+gap: 2px;
+font-family: Helvetica Neue;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.textChange{
+    width: 342px;
+    height: 40px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    gap:0px;
+}
+.blueText{
+font-family: Helvetica;
+font-size: 44px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: -1.5px;
+text-align: left;
+transform: translateY(-10%);
+}
+.fixedText{
+width: 342px;
+height: 96px;
+font-family: Helvetica;
+font-size: 44px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: -1.5px;
+text-align: left;
+
+}
+.arrowIcon,.infoText{
+    display: none;
+}
+.herobottom{
+width:342px;
+height:104px;
+gap: 0px;
+margin-top:90px;
+display: flex;
+flex-direction: column;
+margin-left: 40px;
+
+
+}
+.searchBar{
+width:342px;
+height:30px;
+border-radius: 8px;
+
+}
+.herobutton{
+display: flex;
+align-items: flex-start;
+height: fit-content;
+}
+.joinButton{
+width:370px;
+height:48px;
+padding: 12px, 16px, 12px, 16px;
+border-radius: 6px;
+text-decoration: none;
+margin-top: 7px;
+margin-right: 20px;
+
+}
+.bottomText{
+    margin-top:100px;
+}
+.heroTop{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.bottomText{
+margin-top: 60px;
+margin-left: 30px;
+width:370px;
+font-family: Helvetica Neue;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+font-family: Caveat;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color: #A8A8A8;
+
+
+}
+    
 }
