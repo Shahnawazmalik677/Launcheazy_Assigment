@@ -12,7 +12,8 @@ import image3 from "../../assets/images/LastPage.png?react"
 function MidSection() {
     const img=[image1,image2,image3];
     const [number,setNumber]=useState(0);
-      
+    const [width,setWidth]=useState(window.innerWidth); 
+    console.log(width);  
         const next=()=>{
             setNumber(Math.abs((number+1)%3));
       }
@@ -58,7 +59,16 @@ function MidSection() {
             </div>
             <div className="navButton2" onClick={()=>next()}><Right/></div>
         </div>
-        <div className="frontImage" style={{backgroundImage:`url(${img[number]})`}}></div>
+       {width>992 && <div className="frontImage" style={{backgroundImage:`url(${img[number]})`}}></div> }
+       {width< 993 && 
+        <div className="imageChange">
+        <div className="rollingImage">
+         <div className="image" style={{backgroundImage:`url(${img[0]})`}} ></div>
+         <div className="image" style={{backgroundImage:`url(${img[1]})`}}></div>
+         <div className="image" style={{backgroundImage:`url(${img[2]})`}}></div>
+        </div>
+        </div>
+}
     </div>
     </>
   )

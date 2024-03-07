@@ -8,6 +8,7 @@ import StatsSection from './components/StatsSection'
 import InfoSection from './components/InfoSection'
 import SecondaryFooter from './components/SecondaryFooter'
 import Footer from './components/Footer'
+import "./App.css"
 
 function App() {
   return (
