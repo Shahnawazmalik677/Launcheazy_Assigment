@@ -16,13 +16,13 @@ function App() {
     <BrowserRouter>
     <Header/>
     <HeroSection/>
-    {/* <MidSection/>
+    <MidSection/>
     <CardsSection/>
     <StatsSection/>
     <InfoSection/>
-    <SecondaryFooter/> */}
+    <SecondaryFooter/>
     </BrowserRouter>
-    {/* <Footer/> */}
+    <Footer/>
     </>
   )
 }
